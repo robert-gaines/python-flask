@@ -1,0 +1,14 @@
+To create a virtual environment:
+
+py -3 -m venv <path>
+
+Activate the virtual environment:
+
+- Navigate to the virtual environment path
+- Run activate.bat / Activate
+
+
+Install Flask
+-------------
+
+py -3 -m pip install Flask

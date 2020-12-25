@@ -1,0 +1,3 @@
+-> Jinja2 Templates
+-> Syntax: {{ var }}
+-> Parameters are set in the render template function

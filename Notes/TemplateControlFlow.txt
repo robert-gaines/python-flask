@@ -1,0 +1,27 @@
+Conditional Execution with Jinja2
+
+Syntax: {%%}
+
+Ex:
+
+<ul>
+
+{% for item in list %}
+
+<li> {{item}} </li>
+
+{% endfor %}
+
+</ul>
+
+---
+
+if statement
+
+{% if var in list %}
+<html></html>
+{% else %}
+<html></html>
+{% endif %}
+
+---

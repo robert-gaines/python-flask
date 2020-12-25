@@ -1,0 +1,10 @@
+Flask offers: url_for()
+-> Connects to another page
+
+Syntax:
+
+{{ url_for('index') }}
+
+For a static file:
+
+{{ url_for('folder',filename='') }}

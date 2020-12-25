@@ -1,0 +1,6 @@
+
+Templates
+---------
+
+-> Flask will search for templates in the Templates directory
+-> Templates store HTML files

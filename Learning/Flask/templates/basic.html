@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to the site!</h1>
+      <img src="https://images.unsplash.com/photo-1567856764367-b2de2e573f71?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80" alt="tarsier" >
+      <!--
+      <h2>The contents of the template variable:  {{test_variable}} </h2>
+
+      <h5>Here is a list: {{test_list}} </h5>
+      -->
+      <ul>
+        {% for item in rand_list %}
+         {% if item >= 50 %}
+         <li>{{item}} is greater than or equal to 50</li>
+         {% else %}
+         <li>{{item}}</li>
+         {% endif %}
+        {% endfor %}
+      </ul>
+  </body>
+</html>

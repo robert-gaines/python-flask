@@ -1,0 +1,11 @@
+Debug Mode
+----------
+
+-> Useful for catching errors
+-> Set: 'debug=true'
+
+-> Syntax: 'app.run(debug=True)'
+-> Collect the debugger pin
+-> For interactive console access
+
+-> Naturally, debug should not be used for production

@@ -1,0 +1,5 @@
+How to Add Multiple Pages
+
+Decorator -> @app.route()
+
+For different pages -> @app.route("/other_page")

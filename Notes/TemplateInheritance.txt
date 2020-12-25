@@ -1,0 +1,32 @@
+-> Base HTML template is used
+-> Extend syntax is used to incorporate other HTML formats
+
+Syntax:
+
+{% block content %}
+
+{% endblock %}
+
+---
+
+To extend:
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+---
+
+Filters
+
+-> Permit dynamic variable updating
+
+Syntax:
+
+{{ variable | filter }}
+
+or...
+
+{{ Variable | Function }}

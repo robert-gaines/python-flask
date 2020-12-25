@@ -1,0 +1,7 @@
+Dynamic Routes
+--------------
+
+2 Key features of Dynamic Routes
+--------------------------------
+-> Variable in the route <variable>
+-> A parameter passed in to the function
