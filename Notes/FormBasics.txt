@@ -1,0 +1,15 @@
+
+-> Configure a secret key for security
+-> Create a WTForm class
+  -> Create fields for each part of the form
+-> Set up a View Function
+  -> Add methods (POST/GET)
+  -> Create an instance of Form Class
+  -> Handle form submission
+
+  ---
+
+  -> Corresponding HTML form fields in wtforms
+  -> wtforms also have validators
+  -> Flask has session objects
+  

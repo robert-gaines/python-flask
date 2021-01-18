@@ -1,0 +1,31 @@
+
+-> app.py
+-> requirements.txt
+-> migrations (db)
+    -> project_directory
+    -> data.sqlite
+    -> models.py
+    -> __init__.py
+    -> Objects/Models
+    -> static (cs/jss)
+    -> Top Level Templates
+
+---
+
+Flask Blueprints
+----------------
+-> Makes view referencing easier
+-> Registers a url_prefix for each views.py
+-> blueprints are registered in the init.py file
+
+
+-> Blueprints are stored in the views.py file
+-> "from flask import Blueprint"
+
+-> ex: var = Blueprint('owners',__name__,template_folder="templates/directory")
+  @blueprint_var.route('/file',methods=[])
+
+-> Blueprints are imported into the __init__.py file
+-> Blueprints are then registered in the init file, with corresponding directories
+
+---

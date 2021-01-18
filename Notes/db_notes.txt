@@ -1,0 +1,45 @@
+
+SQL
+---
+
+-> SQLAchemy is common for Flask -> SQLAlchemy is an ORM
+-> SQL is abstracted via Python
+-> SQLite is also an option for Flask
+-> Object Relational Mapper -> Connects Python, FLask, and SQL
+-> Flask-SQLAlchemy is the Python interface for SQLAlchemy
+
+-> Install SQLAlchemy -> "pip install Flask-SQLAlchemy"
+
+-> SQLite Database Creation
+  -> Create the Flask App
+  -> Configure the Flask App for SQLAlchemy
+  -> Pass the application into the SQLAlchemy class call
+
+-> Model in Flask, refers to a database table
+-> Model Creation
+  -> Create a model class
+  -> Inherit from db.model
+  -> optionally provide a table name
+  -> Add in table columns as attributes
+  -> Add in methods for __init__ and __repr__
+
+-> Flask Migration
+  -> pip install Flask-Migrate
+  -> Allows for modification of the SQL Model
+  -> Pre-requisites:
+      -> Environment Variable:
+          *Nix -> export FLASK_APP-app.py
+          Windows -> FLASK_APP=app.py
+  -> Commands:
+      -> "flask db init"
+          -> Set the migration directory
+      -> flask db migrate -m "message"
+          -> Sets up the migration file
+      -> flask db upgrade
+          -> Updates the database with the migration
+
+  -> Powershell Env Variable: " $env:FLASK_APP="db_basic.py"
+
+  -> Primary Key: unique identifier column
+
+  -> Foreign Key: Primary Key in another table 
